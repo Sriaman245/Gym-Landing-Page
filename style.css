@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('tman-2604149_1920.jpg');
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.mid {
+    /* border:2px solid green; */
+    width: 600px;
+    margin: 20px auto;
+
+
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.left img {
+    display: inline-block;
+    width: 90px;
+    padding: 0px 20px;
+    margin: 0px 7px;
+
+}
+
+#text {
+    font-size: 14px;
+    padding: 3px 8px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: rgb(249, 248, 245);
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(193, 115, 19);
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(124, 83, 62);
+    border: 2px solid rgb(255, 252, 252);
+    border-radius: 10px;
+    margin: 0px 5px;
+    padding: 4px 14px;
+    cursor: pointer;
+    /* box-sizing: border-box;h0 */
+}
+
+.btn:hover {
+    background-color: rgb(65, 64, 64);
+}
+
+.container {
+    /* display: inline-block; */
+    border: 2px solid rgb(191, 191, 193);
+    float:left;
+    margin: 200px 120px;
+    padding: 40px;
+    width: 400px;
+    border-radius: 20px;
+    /* box-sizing: border-box; */
+}
+
+.form input {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(16, 16, 16);
+    display: block;
+    border-radius: 4px;
+    width: 250px;
+    margin: 10px auto;
+    padding: 3px;
+}
+
+.container h2 {
+    width: 140px;
+    padding: 0px 10px;
+    margin: auto;
+}
+
+.form button {
+    display: block;
+    width: 250px;
+    margin: auto;
+}
+
+.motivate {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    /* display: inline-block; */
+    font-size: 25px;
+    width: 700px;
+    float: right;
+    margin: 400px 20px;
+}
